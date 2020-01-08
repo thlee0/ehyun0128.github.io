@@ -1,0 +1,15 @@
+main:
+  - title: "Machine-Learning"
+    url: /ML/
+  - title: "Kaggle"
+    url: /Kaggle/
+  - title: "Miscellaneous"
+    url: /Miscellaneous/
+  - title: "Category"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+#  - title: "Collections"
+#    url: /collection-archive/
+#  - title: "External Link"
+#    url: https://google.com
