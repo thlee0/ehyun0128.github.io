@@ -1,13 +1,12 @@
 main:
-  - title: "All Posts"
-    url: /categories/
   - title: "Machine-Learning"
     url: /ML/
   - title: "Kaggle"
     url: /Kaggle/
   - title: "Miscellaneous"
     url: /Miscellaneous/
-
+  - title: "All Posts"
+    url: /categories/
     
 #  - title: "Tags"
 #    url: /tags/
