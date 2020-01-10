@@ -5,8 +5,8 @@ main:
     url: /Kaggle/
   - title: "Miscellaneous"
     url: /Miscellaneous/
-#  - title: "Category"
-#    url: /categories/
+  - title: "All Posts"
+    url: /categories/
 #  - title: "Tags"
 #    url: /tags/
 #  - title: "Collections"
