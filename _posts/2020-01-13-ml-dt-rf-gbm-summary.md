@@ -25,7 +25,7 @@ comments: true
 1) 개요
 - 분류와 회귀, 모두 사용이 가능하다.
 - 책에서 디시전 트리를 가르켜, `스무고개 놀이`에 비유한다. 바로 어떠한 정답을 찾아나가는데 있어 질문들을 하나씩 만들어 Yes/No로 구분하면서 생겨나가는 분기점들을 모아서 하나의 나무로 그려내는 것이 디시전 트리라고 할 수 있다.
-<center><img src="/assets/images/DECISION_TREE.png"></center>
+<center><img src="/assets/images/DECISION_TREE.jpg"></center>
 <center>_디시전 트리 유사사례 : 스무고개 놀이_</center>([출처](https://brunch.co.kr/@kakao-it/157))
 
 
