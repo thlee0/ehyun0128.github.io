@@ -72,7 +72,7 @@ comments: true
 1) 개요
 - 여러개의 디시전 트리를 만들어, 그 결과를 평균냄으로써 결과를 내는 알고리즘.
 - 이름도 잘 지었다고 생각되는게, **랜덤**하게 심은 **수 많은 디시전 트리(나무+나무 = 숲 = Forest)**를 직관적으로 명명하고있다. 
-<center><img src="/assets/images/DECISION_TREE_RF.png"></center>
+<center><img src="/assets/images/Decision_Tree_RF.png"></center>
 <center>_앙상블 기법 1: 랜덤포레스트 개념도([출처](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789132212/2/ch02lvl1sec21/decision-tree-based-ensemble-methods))_</center>
 
 
