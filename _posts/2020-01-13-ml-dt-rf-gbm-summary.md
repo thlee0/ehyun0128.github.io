@@ -26,7 +26,7 @@ comments: true
 - 분류와 회귀, 모두 사용이 가능하다.
 - 책에서 디시전 트리를 가르켜, `스무고개 놀이`에 비유한다. 바로 어떠한 정답을 찾아나가는데 있어 질문들을 하나씩 만들어 Yes/No로 구분하면서 생겨나가는 분기점들을 모아서 하나의 나무로 그려내는 것이 디시전 트리라고 할 수 있다.
 <center><img src="/assets/images/DECISION_TREE.jpg"></center>
-<center>_디시전 트리 유사사례 : 스무고개 놀이_</center>([출처](https://brunch.co.kr/@kakao-it/157))
+<center>디시전 트리 유사사례 : 스무고개 놀이</center>([출처](https://brunch.co.kr/@kakao-it/157))
 
 
 
@@ -78,7 +78,7 @@ comments: true
 - 여러개의 디시전 트리를 만들어, 그 결과를 평균냄으로써 결과를 내는 알고리즘.
 - 이름도 잘 지었다고 생각되는게, **랜덤**하게 심은 **수 많은 디시전 트리(나무+나무 = 숲 = Forest)**를 직관적으로 명명하고있다. 
 <center><img src="/assets/images/Decision_Tree_RF.png"></center>
-<center>_앙상블 기법 1: 랜덤포레스트 개념도_</center>([출처](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789132212/2/ch02lvl1sec21/decision-tree-based-ensemble-methods))
+<center>앙상블 기법 1: 랜덤포레스트 개념도</center>([출처](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789132212/2/ch02lvl1sec21/decision-tree-based-ensemble-methods))
 
 
 
@@ -88,6 +88,7 @@ comments: true
 - 이러한 앙상블의 전략이 제대로 먹혀들기 위해서는 디시전 트리를 **많이** 만들어야 한다. 그와 동시에 각 트리는 다른 트리와 **구별**되어야 한다.
 
 - 다른 트리들과 구별되기 위해 사용하는 방법이 바로 **Random(무작위성)**이다. 랜덤포레스트에서는 트리 생성 시 무작위성을 2가지 방법으로 도입하고 있다.
+
 > 1. 트리를 만들때 사용되는 데이터포인트를 랜덤하게 선택하기 > **랜덤 데이터포인트**
 
 > 2. 분할 테스트에서 특성(피쳐)를 무작위로 선택하기 > **랜덤 피쳐스플릿**
@@ -99,8 +100,11 @@ comments: true
 > `max_features` 패러미터 값만큼, 랜덤하게 후보 특성셋을 구성하고 > 이 후보 특성셋으로 최적의 테스트를 통해 디시전 트리를 만드는 것.
 
 - **랜덤 데이터포인트**와 **랜덤 피쳐스플릿** 중 핵심 매개변수는 **랜덤 피쳐스플릿**에 영향을 미치는 `max_features` 이다.
+
 > `max_features` 패러미터 값을 크게하면(최대 특성 개수만큼 지정하면?) > 전체 특성 셋에서 최선의 디시전 트리들이 생겨남 > 다 비슷비슷한 트리들이 생겨남 > 랜덤포레스트의 전략 훼손
+
 > `max_features` 패러미터 값을 작게하면(최소 1개만 지정하게되면?) > 각 트리의 분기가 무작위로 선택된 한 개 특성의 임계값이 골라진다 > 완전 다른 무작위 트리들이 생겨남 > 랜덤포레스트의 전략 보존, 단, 각 트리가 데이터에 맞추기위해 깊어짐 > 학습시 계산이 복잡/시간이 오래걸리게 될지도
+
 
 - 랜덤포레스트도 단일 디시전 트리처럼 **특성 중요도**를 산출할 수 있다.
 > 그리고 그 중요도 값은 단일 디시전 트리보다 더 신뢰할만하다. (일반화되었으니까)
@@ -116,6 +120,7 @@ comments: true
 > 따라서 `n_estimators`는 **가용한 시간과 메모리만큼 많이** 만드는게 좋다.
 
 - `max_features`는 각 트리가 얼마나 무작위가 될지를 결정하며, 작을 수록 과대적합을 줄여준다.
+
 > 일반적으로 **기본값**을 쓰는게 좋음
 
 > **분류**에서는 **기본값 : `max_features = sqrt(n_features)`**
@@ -154,7 +159,7 @@ comments: true
 - 앞서 랜덤포레스트가 디시전 트리를 병렬로 모아서 투표를 하는 방식이라고 한다면, GBM은 직렬로 세워서 모델을 발전시키는 방식 ~~(으로 이해하고 있음)~~
 - 랜덤포레스트의 무작위성이 없는 대신, 강력한 사전 가지치기(Pre-pruning)가 사용됨
 <center><img src="/assets/images/DECISION_TREE_GBM.jpg"></center>
-<center>_앙상블 기법 2: 그레디언트 부스트 개념도_</center>([출처](https://www.slideshare.net/mark_landry/gbm-package-in-r))
+<center>앙상블 기법 2: 그레디언트 부스트 개념도</center>([출처](https://www.slideshare.net/mark_landry/gbm-package-in-r))
 
 
 2) 내가 놓치고 있던 내용/셀프 궁금증
