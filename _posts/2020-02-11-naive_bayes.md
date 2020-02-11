@@ -234,7 +234,7 @@ P(다리가 있다고 대답∩고양이와 크기가 비슷|토끼) = [P(토끼
 > * "(작가에게 가장 최고의 작품이 뭔지알아?  바로 신작이야. 최고의 작품은 신작이라 생각하고 가야하는거야 " *
 
 {% include video id="9q6Y_pU4cMI?t=3177" provider="youtube" %}
-{% youtube https://www.youtube.com/watch?v=9q6Y_pU4cMI&feature=youtu.be&t=3177 %}
+<iframe width="560" height="315" src="https://youtu.be/9q6Y_pU4cMI?t=3177" frameborder="0" allowfullscreen></iframe>
 
 
 <br/>
