@@ -17,7 +17,7 @@ comments: true
 시간이 훌쩍 지나서 어느새 목적지에 도착해있곤 했다.
 
 
-<center><img src="/assets/images/200211/001.PNG" width="300" ></center>
+<center><img src="/assets/images/200211/001.PNG" width="500" ></center>
 <center><del>만약 술을 곁들인 버전이라면 어른들도 즐기는 게임이 된다</del>, tvN, '응답하라 1994'</center>
 
 
@@ -29,7 +29,7 @@ comments: true
 ## 스무고개 세계의 거룩한 계Bot
 ------
 
-<center><img src="/assets/images/200211/002.PNG" width="300" ></center>
+<center><img src="/assets/images/200211/002.PNG" width="500" ></center>
 <center>100번 하면 98번 이긴다는 전설의 스무고개 봇, <a href="https://kr.akinator.com/">`The Akinator`</a></center>
 <p></p>
 
