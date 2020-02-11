@@ -231,7 +231,7 @@ P(다리가 있다고 대답∩고양이와 크기가 비슷|토끼) = [P(토끼
 거기에서 근성의 작가 김성모님이 남긴 명언을 끝으로 오늘의 긴 포스팅을 마무리 하고자 한다.
 
 
-> * "작가에게 가장 최고의 작품이 뭔지알아?  바로 신작이야. 최고의 작품은 신작이라 생각하고 가야하는거야 " *
+> "작가에게 가장 최고의 작품이 뭔지알아?  바로 신작이야. 최고의 작품은 신작이라 생각하고 가야하는거야 "
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9q6Y_pU4cMI?start=3177" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
