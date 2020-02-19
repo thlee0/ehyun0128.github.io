@@ -15,7 +15,6 @@ use_math: false # MathJax On
 <br>
 
 ## Kaggle 이란?
-------
 
 > 캐글(Kaggle)은 2010년 설립된 예측모델 및 분석 대회 플랫폼이다. 
 >
@@ -34,7 +33,7 @@ Kaggle에 대한 장황한 설명을 기대하면 위키백과에 검색해보�
 
 <br>
 <center><img src="/assets/images/200218/000.jpg" width="500" ></center>
-<center>자신의 실력을 증명할 수 있는 신성한 대회의 장, 토리야마 아키라, '드래곤볼'</center>
+<center><font size="3em">자신의 실력을 증명할 수 있는 신성한 대회의 장 - 토리야마 아키라, '드래곤볼'</font></center>
 <br>
 
 약간의 익살을 붙여본다면, 말그대로 *데이터분석가 세계의 천하제일무술대회*인 셈이다.
@@ -64,11 +63,10 @@ Kaggle에 대한 장황한 설명을 기대하면 위키백과에 검색해보�
 <br>
 
 ## Real or Not? NLP with Disaster Tweets
------
 
 <br>
 <center><img src="/assets/images/200218/001.PNG" width="500" ></center>
-<center><a href=https://www.kaggle.com/c/nlp-getting-started>Real or Not? NLP with Disaster Tweets</a> Description, Kaggle</center>
+<center><font size="3em"><a href="https://www.kaggle.com/c/nlp-getting-started">Real or Not? NLP with Disaster Tweets</a>, Kaggle</font></center>
 <br>
 
 처음 포스팅하게될 위 Competition은 *Tweeter에 올라온 문자데이터를 바탕으로 실제 재난이 발생하였는지를 판별하는 대회*이다.
@@ -79,11 +77,10 @@ Kaggle에 대한 장황한 설명을 기대하면 위키백과에 검색해보�
 <br>
 
 ## Ehyun`s Kaggle 공부 프로세스 (ver 1.0)
------
 
 <br>
 <center><img src="/assets/images/200218/002.PNG" width="500" ></center>
-<center>Ehyun`s Kaggle Developing Process ver1.0</center>
+<center><font size="3em">Ehyun`s Kaggle Developing Process ver1.0</font></center>
 <br>
 
 위에 나타난 대로 `대회리뷰` > [ `Public 코드리뷰` <-반복-> `Private 코드작성` ] > `제출` 의 과정을 거친다.
